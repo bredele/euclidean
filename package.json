@@ -1,0 +1,23 @@
+{
+  "name": "euclidean",
+  "version": "0.0.0",
+  "description": "Euclidean distance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/euclidean.git"
+  },
+  "keywords": [
+    "euclidean",
+    "distance"
+  ],
+  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/euclidean/issues"
+  },
+  "homepage": "https://github.com/bredele/euclidean#readme"
+}
