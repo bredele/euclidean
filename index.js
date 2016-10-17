@@ -11,9 +11,10 @@
  */
 
 module.exports = function(...points) {
+  var length = points.length
   var result = 0
   points.map(point => {
-    result += Math.pow(point.x - point.y, 2)
+    result += Math.pow(point.x - point.y, length)
   })
-  return Math.pow(result, 1 / points.length)
+  return Math.pow(result, 1 / length)
 }
